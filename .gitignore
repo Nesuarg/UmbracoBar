@@ -243,3 +243,21 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+#
+# Umbraco
+#
+
+src/{{ client }}.Umbraco/App_Data/TEMP/
+src/{{ client }}.Umbraco/App_Data/preview/
+src/{{ client }}.Umbraco/App_Data/umbraco.config
+src/{{ client }}.Umbraco/aspnet_client/
+src/{{ client }}.Umbraco/media/
+
+
+#
+# Compiled Assets
+#
+
+src/{{ client }}.Umbraco/scripts/application.js
+src/{{ client }}.Umbraco/css/application.css
